@@ -75,10 +75,12 @@ function minifolio_sidebars(){
   ]);
 }
 
-register_nav_menus([
-  'position' => 'The Main Menu',
-  'social' => 'The Social Icons Menu'
-]);
+register_nav_menus(
+  array(
+    'primary' => 'The Main Menu',
+    'social' => 'The Social Icons Menu'
+  )
+);
 
 
 
